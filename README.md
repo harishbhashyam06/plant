@@ -2,13 +2,14 @@
 
 # 🌿 Plant Leaf Disease Detection Using Deep Learning
 
-### **Final Project – Model Training, Evaluation, Trustworthiness Analysis, Explainability, Robustness & Deployment (Custom CNN as BEST)**
+This is a reviewed, fixed, and complete **README.md** for your Plant Leaf Disease Detection project using deep learning and Streamlit. It includes everything from setup to troubleshooting.
 
 ---
 
 # 📘 1. **Project Overview**
 
-This project introduces a complete deep-learning pipeline for **automatic plant leaf disease detection** using images.
+This project detects **plant leaf diseases** from uploaded images using **deep learning models** built with **TensorFlow** and **Keras**. An interactive **Streamlit web app** allows users to upload leaf images and receive disease predictions with confidence scores.
+
 It includes:
 
 * **Dataset processing**
