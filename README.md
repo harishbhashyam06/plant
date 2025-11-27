@@ -21,6 +21,22 @@ It includes:
 * **Final recommendation for real-world farm usage**
 
 After a complete trustworthiness analysis, **Custom CNN** proved to be the **most reliable, robust, interpretable, accurate, and stable** model among all.
+### 🎯 Objectives
+
+* Train multiple CNN-based architectures and identify the most accurate one.
+* Deploy the trained model via a Streamlit web app.
+* Assist farmers and researchers in early detection of crop diseases.
+
+### 🧠 Models Used
+
+| Model           | Type              | Description                                             |
+| --------------- | ----------------- | ------------------------------------------------------- |
+| **Custom CNN**  | From scratch      | Basic convolutional model for benchmarking              |
+| **VGG16**       | Transfer learning | Pre-trained ImageNet model, fine-tuned for this dataset |
+| **MobileNetV2** | Transfer learning | Lightweight, real-time prediction capable               |
+| **DenseNet121** | Transfer learning | Deep and accurate model used for deployment             |
+
+
 
 ---
 
