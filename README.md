@@ -62,6 +62,20 @@ It outperformed VGG16, MobileNetV2, and DenseNet121 in:
 PlantVillage Dataset (Kaggle)
 🔗 [https://www.kaggle.com/datasets/naimur006/plant-leaves-disease-detection/data](https://www.kaggle.com/datasets/naimur006/plant-leaves-disease-detection/data)
 
+### 📁 Dataset Structure
+
+```
+Multi_Crop_Dataset/
+└── dataset/
+    ├── tomato/
+    │   ├── Tomato_Healthy/
+    │   ├── Tomato_Bacterial_Spot/
+    │   └── ...
+    ├── apple/
+    ├── corn/
+    └── ...
+```
+
 ### **Dataset Characteristics**
 
 * 35 disease classes
