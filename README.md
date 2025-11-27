@@ -305,22 +305,56 @@ app/trained_model/plant_disease_prediction_model.h5
 
 # ⚙️ 14. **Environment Setup**
 
-### Create Virtual Environment
+### Step 1 — Create and Activate Virtual Environment
 
-```
+**Windows (PowerShell):**
+
+```bash
 python -m venv venv
-```
-
-### Activate
-
-```
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy Bypass
 .\venv\Scripts\activate
 ```
 
-### Install Dependencies
+**macOS/Linux:**
+
+```bash
+python3 -m venv venv
+source venv/bin/activate
+```
+
+> Ensure `(venv)` appears at the start of your terminal line.
+
+### Step 2 — Install Dependencies
 
 ```
 pip install -r app/requirements.txt
+```
+
+#### Example `app/requirements.txt`
+
+```
+tensorflow==2.15.0.post1
+keras==2.15.0
+numpy==1.26.4
+pillow>=10.0.0
+opencv-python==4.10.0.84
+streamlit==1.30.0
+protobuf<5
+h5py>=3.10
+```
+
+### Step 3 — Verify Installation
+
+```bash
+python -m pip show tensorflow
+python -m pip show streamlit
+```
+
+If missing:
+
+```bash
+pip install tensorflow
+pip install streamlit
 ```
 
 ---
